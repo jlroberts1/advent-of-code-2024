@@ -1,0 +1,10 @@
+// Day {{day}}, Part {{part}}
+import input from "./input.txt?raw";
+
+export const problemLink = "https://adventofcode.com/2024/day/{{day}}";
+
+export function solve() {
+  console.log(input);
+  // Your solution here
+  return 0;
+}

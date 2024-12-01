@@ -1,0 +1,17 @@
+// Auto-generated file - do not edit directly
+{{imports}}
+
+export interface Problem {
+  day: number;
+  part: number;
+  solve: () => number | string;
+  code: string;
+  problemLink: string;
+  input: string;
+}
+
+export function loadProblems(): Problem[] {
+  return [
+{{problems}}
+  ].sort((a, b) => a.day === b.day ? a.part - b.part : a.day - b.day);
+}
