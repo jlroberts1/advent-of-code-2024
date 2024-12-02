@@ -4,9 +4,9 @@
 export interface Problem {
   day: number;
   part: number;
-  solve: () => number | string;
-  code: string;
+  solve: () => number | string | unknown;
   problemLink: string;
+  code: string;
   input: string;
 }
 
